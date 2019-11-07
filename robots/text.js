@@ -49,8 +49,7 @@ async function robot() {
         const wikipediaRawResponse = await response.json()
 
         const wikipediaRawContent = wikipediaRawResponse.query.pages
-        console.log(wikipediaRawContent)
-
+        
         Object.keys(wikipediaRawContent).forEach((key) => {
             content.sourceContentOriginal = wikipediaRawContent[key]['extract']
         })
