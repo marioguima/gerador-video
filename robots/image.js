@@ -27,8 +27,8 @@ async function robot() {
 			auth: googleSearchCredentials.apiKey,
 			cx: googleSearchCredentials.searchEngineId,
 			q: query,
-			searchType: 'image',
-			imgSize: 'huge',
+			searchType: 'image', //filtra para buscar apenas por imagens
+			//imgSize: 'huge', //força o google trazer apenas imagens com alta resolução
 			num: 2
 		})
 		
