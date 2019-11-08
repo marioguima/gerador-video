@@ -69,3 +69,7 @@ content.json
 content/*.png
 content/*.jpg
 .DS_Store
+
+*.bak
+content/*.bak
+
